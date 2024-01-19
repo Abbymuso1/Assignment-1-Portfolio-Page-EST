@@ -28,18 +28,18 @@
 
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <!-- <li><a href="#services"><i class="fa fa-list"></i>Services</a></li> -->
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
 
         <!-- ===== Main Content ======-->
         <div class="main-content">
             <!-- ===== Home Section ======-->
-            <section class="home section hidden">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -60,7 +60,7 @@
             </section>
             <!-- ===== About Section ======-->
 
-            <section class="about section hidden">
+            <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -248,7 +248,7 @@
             </section>
 
             <!-- ===== Services Section ======-->
-            <section class="service section hidden">
+            <!-- <section class="service section" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -256,8 +256,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!-- ===== Services Items ======-->
-                        <div class="service-item padd-15">
+                        < ===== Services Items ======-->
+                        <!--div class="service-item padd-15">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa fa-mobile-alt"></i>
@@ -325,10 +325,10 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-             <!-- ===== Portfolio Section ======-->
-             <section class="portfolio section">
+            <!-- ===== Portfolio Section ======-->
+            <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -369,7 +369,7 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="porfolio-img">
-                                    <img src="assets/images/portfolio/srms-home.png" alt="portfolio-4">
+                                    <img src="assets/images/portfolio/srms-home-new.png" alt="portfolio-4">
                                 </div>
                             </div>
                         </div>
@@ -377,7 +377,7 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="porfolio-img">
-                                    <img src="assets/images/portfolio/swaluke-home.png" alt="portfolio-5">
+                                    <img src="assets/images/portfolio/swaluke-home-new.png" alt="portfolio-5">
                                 </div>
                             </div>
                         </div>
@@ -385,20 +385,91 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="porfolio-img">
-                                    <img src="assets/images/portfolio/wisechoice-home.png" alt="portfolio-6">
+                                    <img src="assets/images/portfolio/wisechoice-home-new.png" alt="portfolio-6">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
 
-             <!-- ===== Contact Section ======-->
-             <section class="contact section"></section>
+            <!-- ===== Contact Section ======-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have Any Questions ?</h3>
+                    <h4 class="contact-sub-title padd-15"> I'M AT YOUR SERVICE</h4>
+                    <div class="row">
+                        <!-- ===== Contact info item ======-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Reach me on :</h4>
+                            <p>+254 791 498 056</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email :</h4>
+                            <p> abby.muso@gmail.com </p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-github"></i></div>
+                            <h4>Github :</h4>
+                            <p> link </p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <h4>LinkedIn :</h4>
+                            <p> link </p>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15"> I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <!-- ===== Contact form ======-->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" placeholder="Message" id=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
         </div>
+
     </div>
     <!----===== JS Files =====--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
 </body>
 
