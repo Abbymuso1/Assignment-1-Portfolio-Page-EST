@@ -20,6 +20,10 @@ function togglePortfolioPopup() {
 document.querySelector(".portfolio__popup-close").addEventListener("click", togglePortfolioPopup)
 
 function portfolioItemDetails(portfolioItem){
-    console.log(portfolioItem);
-    document.querySelector(".pp__thumbnail img").src = portfolioItem.querySelector(".portfolio-item .portfolio-item-inner .work__img img").src;
+    // console.log(portfolioItem);
+    var srcValue = portfolioItem.querySelector(".porfolio-img img").src;
+    // console.log(srcValue);
+    document.querySelector(".pp_thumbnail img").src = srcValue;
+    document.querySelector(".portfolio__popup-subtitle span").innerHTML = portfolioItem.querySelector(".work__title").innerHTML;
+    document.querySelector(".portfolio__popup-body").innerHTML = portfolioItem.querySelector(".portfolio__item-details").innerHTML;
 }
