@@ -589,6 +589,13 @@ h3.my-profession {
 
 /* Portfolio */
 
+.portfolio__card {
+    background-color: var(--bg-black-100);
+    padding: 1.25rem;
+    border-radius: .5rem;
+    background: red;
+}
+
 .portfolio .container {
     padding-bottom: 40px;
 }
@@ -621,6 +628,146 @@ h3.my-profession {
     width: 100%;
     display: block;
 }
+
+.portfolio__item-details {
+    display: none;
+}
+
+.work__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.work__img {
+    border-radius: .5rem;
+}
+
+.work__button {
+    color: var(--skin-color);
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+/* .portfolio-item .work__button:hover {
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3 ease;
+
+} */
+
+.work__button-icon {
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.work__button:hover .work__button-icon {
+    transform: translateX(.25rem);
+}
+
+/* Portfolio popup */
+
+.portfolio__popup {
+    position: fixed;
+    top: 0;
+    left: 270px;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.portfolio__popup.open {
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio__popup-inner {
+    background-color: var(--bg-black-50);
+    width: 900px;
+    border-radius: .5rem;
+    padding: 2.5rem;
+    position: relative;
+    height: 350px;
+}
+
+.portfolio__popup-content {
+    display: grid;
+    grid: 250px 250px / repeat(2, 1fr);
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.portfolio__popup-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--text-black-700);
+    cursor: pointer;
+}
+
+.portfolio__popup-img {
+    border-radius: .5rem;
+}
+
+.portfolio__popup-subtitle {
+    font-size: .813rem;
+    margin-bottom: .25rem;
+}
+
+.details__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.details__description {
+    font-size: .875rem;
+    margin-bottom: 2rem;
+}
+
+.details__info li {
+    margin-bottom: .75rem;
+    text-transform: capitalize;
+    font-size: .875rem;
+}
+
+.details__info li:last-child {
+    margin-bottom: 0;
+}
+
+
+.details__info li span{
+   font-weight: 500;
+}
+
+.details__info li a{
+    text-transform: lowercase;
+    color: var(--skin-color);
+ }
+
+
+
+
+
+
+
+
+
+
 
 /* Contact */
 .contact-title {
