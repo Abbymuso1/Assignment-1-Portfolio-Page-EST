@@ -16,5 +16,5 @@ Built the website in 48 hours to showcase the following:
 * CSS
 * JavaScript
 
-* ### Link to my deployed website
+### Link to my deployed website
 * [Abigail's Portfoliio](https://abbymuso1.github.io/Assignment-1-Portfolio-Page-EST/)
